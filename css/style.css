@@ -1,8 +1,8 @@
-html{
+html {
     box-sizing: border-box;
 }
 
-*, 
+*,
 *::after,
 *::before {
     box-sizing: inherit;
@@ -10,6 +10,8 @@ html{
 
 body {
     color: #000;
+    /* font-family: 'Cormorant Upright', serif; */
+    font-family: 'Playfair Display', serif;
     font-family: ;
     font-size: 14px;
     font-style: normal;
@@ -22,7 +24,7 @@ a {
     color: inherit;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -32,13 +34,7 @@ button {
     cursor: pointer;
 }
 
-.container{
-    max-width: 1180px;
-    padding: 0 10px;
-    margin: 0 auto;
-}
-
-.header{
+.header {
     background-image: url(../images/bg-min.jpg);
     background-position: center;
     background-size: cover;
@@ -46,3 +42,27 @@ button {
     height: 100vh;
 }
 
+.container {
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+nav {
+
+    color: #fff;
+    font-size: 20px;
+}
+
+.menu__list {
+    display: flex;
+    gap: 20px;
+}
