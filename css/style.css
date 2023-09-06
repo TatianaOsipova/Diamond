@@ -38,3 +38,11 @@ button {
     margin: 0 auto;
 }
 
+.header{
+    background-image: url(../images/bg-min.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
