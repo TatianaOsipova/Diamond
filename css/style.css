@@ -10,9 +10,8 @@ html {
 
 body {
     color: #000;
-    /* font-family: 'Cormorant Upright', serif; */
-    font-family: 'Playfair Display', serif;
-    font-family: ;
+    /* font-family: 'Cormorant Upright', sans-serif; */
+    font-family: 'Playfair Display', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -35,11 +34,9 @@ button {
 }
 
 .header {
-    background-image: url(../images/bg-min.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    position: absolute;
+    left: 0;
+    right: 0;    
 }
 
 .container {
@@ -57,12 +54,45 @@ button {
 }
 
 nav {
-
-    color: #fff;
-    font-size: 20px;
+    color: #fff;    
 }
 
 .menu__list {
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 600;
 }
+
+.menu__list-link:hover{
+    text-decoration: underline;
+}
+
+/* main start */
+
+/* section top start */
+
+.main{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;    
+}
+
+.top__title{
+    position: relative;
+    top: 450px;
+    max-width: 570px;
+    color: #fff;
+    /* font-family: 'Cormorant Upright', sans-serif; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.top__title span{
+    padding-left: 308px;
+}
+
+/* section top end */
