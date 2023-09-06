@@ -73,12 +73,17 @@ nav {
 /* section top start */
 
 .main{
+    background-color: #000;
+}
+
+.top{
     background-image: url(../images/bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;    
     margin-bottom: 100px;
+
 }
 
 .top__title{
@@ -97,11 +102,30 @@ nav {
 
 /* section top end */
 
+/* jewelry start */
+
+.jewelry{
+    padding-bottom: 100px;
+}
+
+.jewelry__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jewelry__info{
+    color: #fff;
+}
+
+
+
+/* jewelry end */
+
 
 
 .footer{
     background-image: url(../images/bg-footer.jpg);
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
     background-repeat: no-repeat;
     padding: 40px 0;
