@@ -78,6 +78,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;    
+    margin-bottom: 100px;
 }
 
 .top__title{
@@ -85,7 +86,6 @@ nav {
     top: 450px;
     max-width: 570px;
     color: #fff;
-    /* font-family: 'Cormorant Upright', sans-serif; */
     font-family: 'Dancing Script', cursive;
     font-size: 70px;
     font-weight: 700;
@@ -96,3 +96,38 @@ nav {
 }
 
 /* section top end */
+
+
+
+.footer{
+    background-image: url(../images/bg-footer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+}
+
+.footer__info{
+    text-align: end;
+    font-variant-numeric: lining-nums;
+}
+
+.footer__info-title{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+
+}
+
+.footer__info-text{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.footer__info-text:last-child{
+    padding-bottom: 0;
+}
