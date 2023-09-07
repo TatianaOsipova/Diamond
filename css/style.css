@@ -16,6 +16,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.2;
+    font-variant-numeric: lining-nums;
 }
 
 a {
@@ -36,7 +37,7 @@ button {
 .header {
     position: absolute;
     left: 0;
-    right: 0;    
+    right: 0;
 }
 
 .container {
@@ -54,7 +55,7 @@ button {
 }
 
 nav {
-    color: #fff;    
+    color: #fff;
 }
 
 .menu__list {
@@ -64,7 +65,7 @@ nav {
     font-weight: 600;
 }
 
-.menu__list-link:hover{
+.menu__list-link:hover {
     text-decoration: underline;
 }
 
@@ -72,21 +73,21 @@ nav {
 
 /* section top start */
 
-.main{
+.main {
     background-color: #000;
 }
 
-.top{
+.top {
     background-image: url(../images/bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;    
+    height: 100vh;
     margin-bottom: 100px;
 
 }
 
-.top__title{
+.top__title {
     position: relative;
     top: 450px;
     max-width: 570px;
@@ -96,7 +97,7 @@ nav {
     font-weight: 700;
 }
 
-.top__title span{
+.top__title span {
     padding-left: 308px;
 }
 
@@ -104,18 +105,137 @@ nav {
 
 /* jewelry start */
 
-.jewelry{
+.jewelry {
     padding-bottom: 100px;
 }
 
-.jewelry__inner{
-    display: flex;
-    justify-content: space-between;
+.jewelry__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 80px;
+    margin-bottom: 200px;
 }
 
-.jewelry__info{
-    color: #fff;
+.right {
+    /* padding-left: 50px;*/
+    padding-top: 150px; 
+    border-right: 1px solid white;
 }
+
+
+.jewelry__info {
+    color: #fff;
+    font-family: 'Cormorant Upright', sans-serif;
+    /* font-family: 'Playfair Display', sans-serif; */
+    text-align: center;    
+}
+
+.jewelry__title {
+    /* font-family: 'Dancing Script', cursive; */
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+
+}
+
+.jewelry__descr {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: white;
+
+}
+
+.slider {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider input[name="switch"] {
+    display: none;
+}
+
+.switch {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#btn1:checked~.switch label[for="btn2"] {
+    background-color: white;
+}
+
+#btn1:checked~.switch label[for="btn3"] {
+    background-color: white;
+}
+
+#btn2:checked~.switch label[for="btn1"] {
+    background-color: white;
+}
+
+#btn2:checked~.switch label[for="btn3"] {
+    background-color: white;
+}
+
+#btn3:checked~.switch label[for="btn1"] {
+    background-color: white;
+}
+
+#btn3:checked~.switch label[for="btn2"] {
+    background-color: white;
+}
+
+
+.slider__inner {
+    overflow: hidden;
+}
+
+.slides {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#btn1:checked~.slider__inner .slides {
+    transform: translate(0);
+}
+
+#btn2:checked~.slider__inner .slides {
+    transform: translate(-500px);
+}
+
+#btn3:checked~.slider__inner .slides {
+    transform: translate(-1000px);
+}
+
+
+
+
 
 
 
@@ -123,7 +243,7 @@ nav {
 
 
 
-.footer{
+.footer {
     background-image: url(../images/bg-footer.jpg);
     /* background-size: cover; */
     background-position: center;
@@ -131,12 +251,12 @@ nav {
     padding: 40px 0;
 }
 
-.footer__info{
+.footer__info {
     text-align: end;
-    font-variant-numeric: lining-nums;
+    
 }
 
-.footer__info-title{
+.footer__info-title {
     font-size: 18px;
     color: #fff;
     font-weight: 500;
@@ -145,13 +265,13 @@ nav {
 
 }
 
-.footer__info-text{
+.footer__info-text {
     font-size: 16px;
     color: #fff;
     font-weight: 500;
     padding-bottom: 20px;
 }
 
-.footer__info-text:last-child{
+.footer__info-text:last-child {
     padding-bottom: 0;
 }
