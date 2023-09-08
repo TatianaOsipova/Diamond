@@ -844,19 +844,46 @@ nav {
 
 /* earrings325 end */
 
-
-
-
-
-
-
-
-
-
-
 /* jewelry end */
 
+/* VIDEOS PAGE */
+/* start header */
 
+.page-header {
+    position: absolute;
+    padding-top: 25px;
+    width: 100%;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+    /* background: black;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white; */
+    z-index: 1;
+}
+
+/* start videos*/
+
+/* videos start */
+
+.videos {
+    background: linear-gradient(#4d4b4b, #09090e);
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.video__item-frame {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px; 
+}
+
+/* end videos*/
+
+/* footer start */
 
 .footer {
     background-image: url(../images/bg-footer.jpg);
@@ -890,3 +917,5 @@ nav {
 .footer__info-text:last-child {
     padding-bottom: 0;
 }
+
+/* footer end */
