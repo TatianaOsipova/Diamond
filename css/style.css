@@ -849,7 +849,7 @@ nav {
 /* VIDEOS PAGE */
 /* start header */
 
-.page-header {
+.header__video {
     position: absolute;
     padding-top: 25px;
     width: 100%;
