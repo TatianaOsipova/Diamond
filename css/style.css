@@ -117,13 +117,11 @@ nav {
 }
 
 .right {
-    /* padding-left: 50px;*/
     padding-top: 150px; 
     border-right: 1px solid white;
 }
 
 .left {
-    /* padding-left: 50px; */
     padding-top: 150px;
     border-left: 1px solid white;
 }
@@ -132,12 +130,10 @@ nav {
 .jewelry__info {
     color: #fff;
     font-family: 'Cormorant Upright', sans-serif;
-    /* font-family: 'Playfair Display', sans-serif; */
     text-align: center;    
 }
 
 .jewelry__title {
-    /* font-family: 'Dancing Script', cursive; */
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
@@ -160,7 +156,6 @@ nav {
     position: relative;
     width: 500px;
     margin: 0 auto;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
 }
 
 .slider input[name="switch"] {
@@ -181,7 +176,6 @@ nav {
     height: 8px;
     cursor: pointer;
     margin: 0 3px;
-    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
     border-radius: 50%;
     border: 5px solid black;
     border-color: white;
@@ -255,7 +249,6 @@ nav {
     position: relative;
     width: 500px;
     margin: 0 auto;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
 }
 
 .slider309 input[name="switch309"] {
@@ -276,7 +269,6 @@ nav {
     height: 8px;
     cursor: pointer;
     margin: 0 3px;
-    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
     border-radius: 50%;
     border: 5px solid black;
     border-color: white;
@@ -336,7 +328,7 @@ nav {
 
 /* ring309 end */
 
-/* ring551 slider start */
+/* ring551 start */
 
 .ring551 {
     display: grid;
@@ -351,7 +343,6 @@ nav {
     position: relative;
     width: 500px;
     margin: 0 auto;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
 }
 
 .slider551 input[name="switch551"] {
@@ -372,7 +363,6 @@ nav {
     height: 8px;
     cursor: pointer;
     margin: 0 3px;
-    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.8);
     border-radius: 50%;
     border: 5px solid black;
     border-color: white;
@@ -431,6 +421,433 @@ nav {
 }
 
 /* ring551 end */
+
+/* ring643 start */
+
+.ring643 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+    margin-bottom: 100px;
+}
+
+.slider643 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.slider643 input[name="switch643"] {
+    display: none;
+}
+
+.switch643 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch643 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#button1:checked~.switch643 label[for="button2"] {
+    background-color: white;
+}
+
+#button1:checked~.switch643 label[for="button3"] {
+    background-color: white;
+}
+
+#button2:checked~.switch643 label[for="button1"] {
+    background-color: white;
+}
+
+#button2:checked~.switch643 label[for="button3"] {
+    background-color: white;
+}
+
+#button3:checked~.switch643 label[for="button1"] {
+    background-color: white;
+}
+
+#button3:checked~.switch643 label[for="button2"] {
+    background-color: white;
+}
+
+.slider__inner643 {
+    overflow: hidden;
+}
+
+.slides643 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides643 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#button1:checked~.slider__inner643 .slides643 {
+    transform: translate(0);
+}
+
+#button2:checked~.slider__inner643 .slides643 {
+    transform: translate(-500px);
+}
+
+#button3:checked~.slider__inner643 .slides643 {
+    transform: translate(-1000px);
+}
+
+/* ring643 end */
+
+/* ring326 start */
+
+.ring326 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+    margin-bottom: 200px;
+    padding-top: 100px;
+    border-top: 1px solid white;
+}
+
+.slider326 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.slider326 input[name="switch326"] {
+    display: none;
+}
+
+.switch326 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch326 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#button_1:checked~.switch326 label[for="button_2"] {
+    background-color: white;
+}
+
+#button_1:checked~.switch326 label[for="button_3"] {
+    background-color: white;
+}
+
+#button_2:checked~.switch326 label[for="button_1"] {
+    background-color: white;
+}
+
+#button_2:checked~.switch326 label[for="button_3"] {
+    background-color: white;
+}
+
+#button_3:checked~.switch326 label[for="button_1"] {
+    background-color: white;
+}
+
+#button_3:checked~.switch326 label[for="button_2"] {
+    background-color: white;
+}
+
+.slider__inner326 {
+    overflow: hidden;
+}
+
+.slides326 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides326 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#button_1:checked~.slider__inner326 .slides326 {
+    transform: translate(0);
+}
+
+#button_2:checked~.slider__inner326 .slides326 {
+    transform: translate(-500px);
+}
+
+#button_3:checked~.slider__inner326 .slides326 {
+    transform: translate(-1000px);
+}
+
+/* ring326 end */
+
+/* ring611 start */
+
+.ring611 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+    margin-bottom: 100px;
+}
+
+.slider611 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.slider611 input[name="switch611"] {
+    display: none;
+}
+
+.switch611 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch611 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#bttn1:checked~.switch611 label[for="bttn2"] {
+    background-color: white;
+}
+
+#bttn1:checked~.switch611 label[for="bttn3"] {
+    background-color: white;
+}
+
+#bttn2:checked~.switch611 label[for="bttn1"] {
+    background-color: white;
+}
+
+#bttn2:checked~.switch611 label[for="bttn3"] {
+    background-color: white;
+}
+
+#bttn3:checked~.switch611 label[for="bttn1"] {
+    background-color: white;
+}
+
+#bttn3:checked~.switch611 label[for="bttn2"] {
+    background-color: white;
+}
+
+.slider__inner611 {
+    overflow: hidden;
+}
+
+.slides611 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides611 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#bttn1:checked~.slider__inner611 .slides611 {
+    transform: translate(0);
+}
+
+#bttn2:checked~.slider__inner611 .slides611 {
+    transform: translate(-500px);
+}
+
+#bttn3:checked~.slider__inner611 .slides611 {
+    transform: translate(-1000px);
+}
+
+/* ring611 end */
+
+/* earrings323 start */
+
+.earrings323 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+    margin-bottom: 200px;
+    padding-top: 100px;
+    border-top: 1px solid white;
+}
+
+.slider323 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.slider323 input[name="switch323"] {
+    display: none;
+}
+
+.switch323 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch323 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#bttn_1:checked~.switch323 label[for="bttn_2"] {
+    background-color: white;
+}
+
+#bttn_2:checked~.switch323 label[for="bttn_1"] {
+    background-color: white;
+}
+
+.slider__inner323 {
+    overflow: hidden;
+}
+
+.slides323 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides323 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#bttn_1:checked~.slider__inner323 .slides323 {
+    transform: translate(0);
+}
+
+#bttn_2:checked~.slider__inner323 .slides323 {
+    transform: translate(-500px);
+}
+
+/* earrings323 end */
+
+/* earrings325 start */
+
+.earrings325 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 110px;
+}
+
+.slider325 {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.slider325 input[name="switch325"] {
+    display: none;
+}
+
+.switch325 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.switch325 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    border-radius: 50%;
+    border: 5px solid black;
+    border-color: white;
+}
+
+#bttn-1:checked~.switch325 label[for="bttn-2"] {
+    background-color: white;
+}
+
+#bttn-2:checked~.switch325 label[for="bttn-1"] {
+    background-color: white;
+}
+
+.slider__inner325 {
+    overflow: hidden;
+}
+
+.slides325 {
+    width: 300%;
+    transition: all 0.5s;
+}
+
+.slides325 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 15px;
+}
+
+#bttn-1:checked~.slider__inner325 .slides325 {
+    transform: translate(0);
+}
+
+#bttn-2:checked~.slider__inner325 .slides325 {
+    transform: translate(-500px);
+}
+
+/* earrings325 end */
+
+
+
+
 
 
 
