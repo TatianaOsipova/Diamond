@@ -945,7 +945,7 @@ nav {
 }
 
 .contact__form-btn {
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
@@ -963,6 +963,7 @@ nav {
     transition: all .5s;
     transform: scale(1.2);
     background-color: rgb(35, 202, 194);
+    color: #fff;
 }
 
 .contact__form-btn:active {
