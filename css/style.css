@@ -84,6 +84,7 @@ nav {
     background-repeat: no-repeat;
     height: 100vh;
     margin-bottom: 100px;
+    border-bottom: 1px solid white;
 
 }
 
@@ -886,10 +887,8 @@ nav {
 /* CONTACT PAGE */
 /* start main */
 
-.contact {
-    min-height: 100vh;
-    background: url(../img/bg.jpg) no-repeat center;
-    background-size: cover;
+.contact{
+    margin-bottom: 0;
 }
 
 .contact__inner {
@@ -913,7 +912,6 @@ nav {
     line-height: 30px;
     color: white;
     padding-top: 10px;
-    font-variant-numeric: lining-nums;
 }
 
 .contact__form-title {
@@ -924,7 +922,7 @@ nav {
     color: rgb(35, 202, 194);
     padding-top: 50px;
     margin-bottom: 30px;
-    margin-left: 12px;
+    /* margin-left: 12px; */
 }
 
 .contact__form-input {
@@ -981,6 +979,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     padding: 40px 0;
+    border-top: 1px solid white;
 }
 
 .footer__info {
@@ -1009,3 +1008,9 @@ nav {
 }
 
 /* footer end */
+
+/* adaptive start */
+
+@media (max-width: px) {
+
+}
