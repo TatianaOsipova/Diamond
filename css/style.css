@@ -883,6 +883,95 @@ nav {
 
 /* end videos*/
 
+/* CONTACT PAGE */
+/* start main */
+
+.contact {
+    min-height: 100vh;
+    background: url(../img/bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.contact__inner {
+    padding-top: 100px;
+}
+
+.contact__title {
+    max-width: 619px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    padding-top: 200px;
+    text-transform: uppercase;
+}
+
+.contact__info {
+    max-width: 619px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    padding-top: 10px;
+    font-variant-numeric: lining-nums;
+}
+
+.contact__form-title {
+    max-width: 619px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 10px;
+    color: rgb(35, 202, 194);
+    padding-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 12px;
+}
+
+.contact__form-input {
+    border: 2px solid rgb(35, 202, 194);
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 20px;
+    height: 50px;
+    max-width: 619px;
+    padding: 0 31px;
+    line-height: 21px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact__form-input::placeholder {
+    color: black;
+}
+
+.contact__form-btn {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: uppercase;
+    border: 2px solid rgb(35, 202, 194);
+    border-radius: 5px;
+    padding: 11px 45px;
+    cursor: pointer;
+    margin-left: 50px;
+    background-color: rgb(35, 202, 194);
+    transition: all .5s;
+}
+
+.contact__form-btn:hover {
+    transition: all .5s;
+    transform: scale(1.2);
+    background-color: rgb(35, 202, 194);
+}
+
+.contact__form-btn:active {
+    transition: 0s;
+    background-color: rgb(50, 118, 115);
+}
+
+/* contact end */
+
 /* footer start */
 
 .footer {
