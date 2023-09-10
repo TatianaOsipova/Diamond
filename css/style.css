@@ -879,7 +879,7 @@ nav {
     position: relative;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 /* end videos*/
@@ -887,7 +887,7 @@ nav {
 /* CONTACT PAGE */
 /* start main */
 
-.contact{
+.contact {
     margin-bottom: 0;
 }
 
@@ -1011,6 +1011,15 @@ nav {
 
 /* adaptive start */
 
-@media (max-width: px) {
+@media (max-width: 580px) {
+    .footer__info-title {
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+
+    .footer__info-text {
+        font-size: 14px;
+        padding-bottom: 12px;
+    }
 
 }
