@@ -85,7 +85,6 @@ nav {
     height: 100vh;
     margin-bottom: 100px;
     border-bottom: 1px solid white;
-
 }
 
 .top__title {
@@ -1009,9 +1008,99 @@ nav {
 
 /* footer end */
 
+.menu__btn {
+    display: none;
+}
+
 /* adaptive start */
 
 @media (max-width: 580px) {
+    .header__inner {
+        padding-top: 0;
+    }
+
+    .logo__img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .menu__btn {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        position: absolute;
+        right: 20px;
+        top: 40px;
+    }
+
+    .menu__btn::after,
+    .menu__btn::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 2px;
+        background-color: #fff;
+    }
+
+    .menu__btn::before {
+        top: 0;
+    }
+
+    .menu__btn::after {
+        bottom: 0;
+    }
+
+    .menu__btn span {
+        display: block;
+        height: 2px;
+        background-color: #fff;
+    }
+
+    .menu__list {
+        transform: translateY(-280%);
+        display: block;
+        background-color: rgb(41, 40, 40);
+        border: 2px solid white;
+        padding: 10px 0;
+        transition: all 3s;
+        position: absolute;
+        left: 50px;
+        right: 50px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .menu__list.menu__list--active {
+        transform: translateY(20%);
+    }
+
+    .menu__list-link {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu__list-item {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .menu__list-item:last-child {
+        padding-right: 15px;
+    }
+
+    .videos {
+        padding-top: 150px;
+    }
+
+
+
+
+
+
     .footer__info-title {
         font-size: 16px;
         padding-bottom: 12px;
