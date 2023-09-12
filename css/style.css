@@ -1033,7 +1033,7 @@ nav {
         background-color: transparent;
         position: absolute;
         right: 20px;
-        top: 40px;
+        top: 48px;
     }
 
     .menu__btn::after,
@@ -1076,6 +1076,7 @@ nav {
 
     .menu__list.menu__list--active {
         transform: translateY(20%);
+        text-align: center;
     }
 
     .menu__list-link {
@@ -1086,10 +1087,6 @@ nav {
     .menu__list-item {
         margin-top: 20px;
         margin-bottom: 20px;
-    }
-
-    .menu__list-item:last-child {
-        padding-right: 15px;
     }
 
     .videos {
@@ -1111,4 +1108,10 @@ nav {
         padding-bottom: 12px;
     }
 
+}
+
+@media (max-width: 540px){
+    .videos {
+        padding-bottom: 0;
+    }
 }
