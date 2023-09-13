@@ -89,12 +89,13 @@ nav {
 
 .top__title {
     position: relative;
-    top: 450px;
-    max-width: 570px;
+    top: 400px;
+    max-width: 605px;
     color: #fff;
     font-family: 'Dancing Script', cursive;
     font-size: 70px;
     font-weight: 700;
+    transform: rotate(-12deg);
 }
 
 .top__title span {
@@ -1021,6 +1022,22 @@ nav {
 
 }
 
+@media (max-width: 900px) {
+    .top__title span {
+        padding-left: 164px;
+    }
+
+}
+
+@media (max-width: 780px) {
+    .top__title {
+        max-width: 400px;
+        font-size: 58px;
+    }
+}
+
+
+
 @media (max-width: 580px) {
     .header__inner {
         padding-top: 0;
@@ -1117,7 +1134,7 @@ nav {
 
 }
 
-@media (max-width: 540px){
+@media (max-width: 540px) {
     .videos {
         padding-bottom: 0;
     }
