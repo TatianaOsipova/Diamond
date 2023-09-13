@@ -1105,9 +1105,8 @@ nav {
 
     .videos {
         padding-top: 150px;
-    }
-
-    
+        padding-bottom: 0;
+    }    
 
     .top__title{
         top: 360px;
@@ -1134,8 +1133,14 @@ nav {
 
 }
 
-@media (max-width: 540px) {
-    .videos {
-        padding-bottom: 0;
+@media (max-width: 500px) {
+    .top__title{
+        max-width: 340px;
     }
+
+    .top__title span{
+        padding-left: 96px;
+    }
+
+    
 }
