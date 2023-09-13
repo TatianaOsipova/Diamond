@@ -1014,6 +1014,13 @@ nav {
 
 /* adaptive start */
 
+@media (max-width: 1100px) {
+    .top__title span {
+        padding-left: 214px;
+    }
+
+}
+
 @media (max-width: 580px) {
     .header__inner {
         padding-top: 0;
