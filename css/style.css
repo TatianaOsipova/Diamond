@@ -38,6 +38,7 @@ button {
     position: absolute;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .container {
@@ -89,7 +90,7 @@ nav {
 
 .top__title {
     position: relative;
-    top: 400px;
+    top: 450px;
     max-width: 605px;
     color: #fff;
     font-family: 'Dancing Script', cursive;
@@ -848,26 +849,6 @@ nav {
 /* jewelry end */
 
 /* VIDEOS PAGE */
-/* start header */
-
-.header__video {
-    position: absolute;
-    padding-top: 25px;
-    width: 100%;
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; */
-    /* background: black;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white; */
-    z-index: 1;
-}
-
-/* start videos*/
-
-/* videos start */
 
 .videos {
     background: linear-gradient(#4d4b4b, #09090e);
@@ -885,7 +866,6 @@ nav {
 /* end videos*/
 
 /* CONTACT PAGE */
-/* start main */
 
 .contact {
     margin-bottom: 0;
@@ -1023,25 +1003,35 @@ nav {
 }
 
 @media (max-width: 900px) {
+    .top__title {
+        max-width: 565px;
+    }
+
     .top__title span {
         padding-left: 164px;
     }
-
 }
 
 @media (max-width: 780px) {
     .top__title {
-        max-width: 400px;
+        max-width: 410px;
         font-size: 58px;
+    }
+}
+
+@media (max-width: 700px) {
+    .top__title {
+        top: 385px;
+        font-size: 46px;
     }
 }
 
 
 
+
+
 @media (max-width: 580px) {
-    .header__inner {
-        padding-top: 0;
-    }
+    
 
     .logo__img {
         width: 70px;
@@ -1115,6 +1105,16 @@ nav {
 
     .videos {
         padding-top: 150px;
+    }
+
+    
+
+    .top__title{
+        top: 360px;
+    }
+
+    .top__title span{
+        padding-left: 143px;
     }
 
 
