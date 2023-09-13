@@ -1136,6 +1136,7 @@ nav {
 @media (max-width: 500px) {
     .top__title{
         max-width: 340px;
+        top: 284px;
     }
 
     .top__title span{
