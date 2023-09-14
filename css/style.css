@@ -1031,7 +1031,7 @@ nav {
 
 
 @media (max-width: 580px) {
-    
+
 
     .logo__img {
         width: 70px;
@@ -1106,13 +1106,13 @@ nav {
     .videos {
         padding-top: 150px;
         padding-bottom: 0;
-    }    
+    }
 
-    .top__title{
+    .top__title {
         top: 360px;
     }
 
-    .top__title span{
+    .top__title span {
         padding-left: 143px;
     }
 
@@ -1134,12 +1134,23 @@ nav {
 }
 
 @media (max-width: 500px) {
-    .top__title{
+    .top__title {
         max-width: 340px;
         top: 284px;
     }
 
-    .top__title span{
+    .top__title span {
         padding-left: 96px;
-    }    
+    }
+}
+
+@media (max-width: 400px) {
+    .top__title {
+        max-width: 250px;
+        font-size: 40px;
+    }
+
+    .top__title span{
+        padding-left: 36px;
+    }
 }
