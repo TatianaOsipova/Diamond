@@ -1002,12 +1002,7 @@ nav {
 
 }
 
-/* @media (max-width: 1000px) {
-    .contact__inner {
-        padding-top: 190px;
-    }
 
-} */
 
 
 
@@ -1151,7 +1146,13 @@ nav {
     .top__title span {
         padding-left: 96px;
     }
+
+    .contact__inner {
+        padding-top: 0;
+    }
+
 }
+
 
 @media (max-width: 400px) {
     .top__title {
@@ -1162,4 +1163,19 @@ nav {
     .top__title span{
         padding-left: 36px;
     }
+
+    .contact__title {
+        font-size: 20px;
+    }
+
+    .contact__info{
+        font-size: 16px;
+    }
+
+    .contact__form-title{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+
 }
