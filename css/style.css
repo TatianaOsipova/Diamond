@@ -1002,6 +1002,15 @@ nav {
 
 }
 
+/* @media (max-width: 1000px) {
+    .contact__inner {
+        padding-top: 190px;
+    }
+
+} */
+
+
+
 @media (max-width: 900px) {
     .top__title {
         max-width: 565px;
