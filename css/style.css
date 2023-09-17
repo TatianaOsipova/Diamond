@@ -1002,6 +1002,106 @@ nav {
 
 }
 
+@media (max-width: 1000px) {
+    .left {
+        padding-left: 0px;
+    }
+
+    .right {
+        padding-left: 30px;
+    }
+
+    .jewelry {
+        margin-top: 50px;
+    }
+
+    .jewelry__title {
+        font-size: 20px;
+        line-height: 10px;
+        margin-top: -30px;
+        padding-bottom: 30px;
+    }
+
+    .jewelry__descr {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .ring112,
+    .ring309,
+    .ring611,
+    .ring643 {
+        grid-gap: 0 30px;
+        margin-bottom: 50px;
+    }
+
+    .ring551,
+    .ring326,
+    .earrings323 {
+        grid-gap: 0 30px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .earrings325 {
+        grid-gap: 0 30px;
+    }
+
+    .slider,
+    .slider309,
+    .slider551,
+    .slider643,
+    .slider326,
+    .slider611,
+    .slider323,
+    .slider325 {
+        width: 400px;
+    }
+
+    .slider img,
+    .slider309 img,
+    .slider551 img,
+    .slides643 img,
+    .slider326 img,
+    .slider611 img,
+    .slides323 img,
+    .slides325 img {
+        width: 400px;
+        height: 400px;
+    }
+
+    #btn1:checked~.slider_inner .slides,
+    #btn-1:checked~.slider_inner309 .slides309,
+    #btn_1:checked~.slider_inner551 .slides551,
+    #button1:checked~.slider_inner643 .slides643,
+    #button_1:checked~.slider_inner326 .slides326,
+    #bttn1:checked~.slider_inner611 .slides611,
+    #bttn_1:checked~.slider_inner323 .slides323,
+    #bttn-1:checked~.slider_inner325 .slides325 #btn1:checked~.slider_inner .slides {
+        transform: translate(0);
+    }
+
+    #btn2:checked~.slider_inner .slides,
+    #btn-2:checked~.slider_inner309 .slides309,
+    #btn_2:checked~.slider_inner551 .slides551,
+    #button2:checked~.slider_inner643 .slides643,
+    #button_2:checked~.slider_inner326 .slides326,
+    #bttn2:checked~.slider_inner611 .slides611,
+    #bttn_2:checked~.slider_inner323 .slides323,
+    #bttn-2:checked~.slider_inner325 .slides325 {
+        transform: translate(-400px);
+    }
+
+    #btn3:checked~.slider_inner .slides,
+    #btn-3:checked~.slider_inner309 .slides309,
+    #btn_3:checked~.slider_inner551 .slides551,
+    #button3:checked~.slider_inner643 .slides643,
+    #button_3:checked~.slider_inner326 .slides326,
+    #bttn3:checked~.slider_inner611 .slides611 {
+        transform: translate(-800px);
+    }
+}
+
 
 
 
