@@ -1003,7 +1003,6 @@ nav {
 }
 
 @media (max-width: 1000px) {
-
     .left,
     .right {
         padding-left: 0px;
@@ -1100,10 +1099,6 @@ nav {
     }
 }
 
-
-
-
-
 @media (max-width: 900px) {
     .top__title {
         max-width: 565px;
@@ -1115,7 +1110,6 @@ nav {
 }
 
 @media (max-width:835px) {
-
     .right,
     .left {
         padding-top: 130px;
@@ -1263,13 +1257,7 @@ nav {
     }
 }
 
-
-
-
-
 @media (max-width: 580px) {
-
-
     .logo__img {
         width: 70px;
         height: 70px;
@@ -1317,7 +1305,7 @@ nav {
         background-color: rgb(41, 40, 40);
         border: 2px solid white;
         padding: 10px 0;
-        transition: all 3s;
+        transition: all 1.5s;
         position: absolute;
         left: 50px;
         right: 50px;
