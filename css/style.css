@@ -1003,6 +1003,7 @@ nav {
 }
 
 @media (max-width: 1000px) {
+
     .left,
     .right {
         padding-left: 0px;
@@ -1114,6 +1115,7 @@ nav {
 }
 
 @media (max-width:835px) {
+
     .right,
     .left {
         padding-top: 130px;
@@ -1197,6 +1199,67 @@ nav {
     .top__title {
         top: 385px;
         font-size: 46px;
+    }
+
+    .ring112,
+    .ring309,
+    .ring551,
+    .ring643,
+    .ring326,
+    .ring611,
+    .earrings323 {
+        padding-bottom: 30px;
+    }
+
+
+    .slider309,
+    .slider643,
+    .slider611,
+    .slider325 {
+        order: -1;
+    }
+
+    .ring309,
+    .ring643,
+    .ring611,
+    .earrings325 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .ring112,
+    .ring309,
+    .ring551,
+    .ring643,
+    .ring326,
+    .ring611,
+    .earrings323,
+    .earrings325 {
+        grid-template-columns: repeat(1, 1fr);
+        border-top: none;
+    }
+
+    .ring112 {
+        border-bottom: 1px dotted silver;
+        padding-bottom: 30px;
+    }
+
+    .ring551 {
+        border-bottom: 1px dotted silver;
+        border-top: 1px dotted silver;
+        padding-bottom: 30px;
+    }
+
+    .ring326 {
+        border-bottom: 1px dotted silver;
+        border-top: 1px dotted silver;
+        padding-bottom: 30px;
+    }
+
+    .earrings323 {
+        border-bottom: 1px dotted silver;
+        border-top: 1px dotted silver;
+        padding-bottom: 30px;
     }
 }
 
@@ -1330,7 +1393,7 @@ nav {
         font-size: 40px;
     }
 
-    .top__title span{
+    .top__title span {
         padding-left: 36px;
     }
 
@@ -1338,11 +1401,11 @@ nav {
         font-size: 20px;
     }
 
-    .contact__info{
+    .contact__info {
         font-size: 16px;
     }
 
-    .contact__form-title{
+    .contact__form-title {
         font-size: 20px;
         padding-top: 30px;
     }
