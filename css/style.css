@@ -1359,6 +1359,9 @@ nav {
 }
 
 @media (max-width: 500px) {
+    .top.contact{
+        border-bottom: none;
+    }
     .top__title {
         max-width: 340px;
         top: 284px;
